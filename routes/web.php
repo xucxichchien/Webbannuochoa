@@ -16,9 +16,9 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 route::get('/','TemplateController@index');
 //Route::view('/','insert');
 route::post('insertData',[ProductController::class,'insert']);

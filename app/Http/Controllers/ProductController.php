@@ -73,6 +73,6 @@ class ProductController extends Controller
         $prod->PDetails =$Details;
         $prod->PImage =$Image;
         $prod->save();
-        return redirect('/');
+        return redirect('/insert');
     }
 }

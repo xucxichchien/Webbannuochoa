@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-/*use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CustomAuthController;
-use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;*/
+/*use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;*/
 use App\Http\Controllers\TemplateController;
 
 /*  

@@ -1,5 +1,5 @@
 
-@extends('welcome')
+@extends('welcome')            
 @section('content')
 <left>
 <!-- Button trigger modal -->

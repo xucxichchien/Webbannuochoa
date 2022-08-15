@@ -19,6 +19,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 Route::get('/', function () {
     return view('welcome');
 });
+route::get('/','TemplateController@index');
 //Route::view('/','insert');
 route::post('insertData',[ProductController::class,'insert']);
 route::get('/',[ProductController::class,'readdata']);
@@ -31,5 +32,5 @@ route::post('/register-user',[CustomAuthController::class,'registerUser'])->name
 route::post('/login-user',[CustomAuthController::class,'loginUser'])->name('login-user');
 route::get('/dashboard',[CustomAuthController::class,'dashboard']);
 route::get('/logout',[CustomAuthController::class,'logout']);
-route::get('/','TemplateController@index');
+
 ?> 

@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProductController;
+/*use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CustomAuthController;
-use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;*/
 use App\Http\Controllers\TemplateController;
 
 /*  
@@ -21,7 +21,7 @@ use App\Http\Controllers\TemplateController;
     return view('welcome');
 });*/
 Route::get("/",[TemplateController::class,"index"]);
-
+/*
 //Route::view('/','insert');
 route::post('insertData',[ProductController::class,'insert']);
 route::get('/',[ProductController::class,'readdata']);
@@ -33,6 +33,6 @@ route::get('/registration',[CustomAuthController::class,'registration']);
 route::post('/register-user',[CustomAuthController::class,'registerUser'])->name('register-user');
 route::post('/login-user',[CustomAuthController::class,'loginUser'])->name('login-user');
 route::get('/dashboard',[CustomAuthController::class,'dashboard']);
-route::get('/logout',[CustomAuthController::class,'logout']);
+route::get('/logout',[CustomAuthController::class,'logout']);*/
+?>
 
-?> 

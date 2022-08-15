@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CustomAuthController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+use App\Http\Controllers\TemplateController;
 
 /*  
 |--------------------------------------------------------------------------
@@ -19,7 +20,8 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-route::get('/','app\Http\Controllers\TemplateController@index');
+Route::get("/",[TemplateController::class,"index"]);
+
 //Route::view('/','insert');
 /*route::post('insertData',[ProductController::class,'insert']);
 route::get('/',[ProductController::class,'readdata']);

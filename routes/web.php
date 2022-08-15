@@ -31,4 +31,5 @@ route::post('/register-user',[CustomAuthController::class,'registerUser'])->name
 route::post('/login-user',[CustomAuthController::class,'loginUser'])->name('login-user');
 route::get('/dashboard',[CustomAuthController::class,'dashboard']);
 route::get('/logout',[CustomAuthController::class,'logout']);
+route::get('/','TemplateController@index');
 ?> 

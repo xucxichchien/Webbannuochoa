@@ -19,7 +19,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-route::get('/','TemplateController@index');
+route::get('/','app\Http\Controllers\TemplateController@index');
 //Route::view('/','insert');
 /*route::post('insertData',[ProductController::class,'insert']);
 route::get('/',[ProductController::class,'readdata']);

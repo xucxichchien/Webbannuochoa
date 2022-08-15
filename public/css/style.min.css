@@ -38,7 +38,7 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #e22104 }
+  color: #e22104; }
 
 .btn-icon {
   display: inline-flex;

@@ -1,356 +1,737 @@
-
 <!DOCTYPE html>
+<!--
+	Resto by GetTemplates.co
+	URL: https://gettemplates.co
+-->
 <html lang="en">
+
 <head>
 
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resto - Restaurant Bootstrap 4 Template by GetTemplates.co</title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Agency Perfect</title>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <!-- Favicon
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
 
-    <!-- Stylesheets
-    ================================================== -->
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-   
-  
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+68) 120034509</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
 
-    <header id="masthead" class="site-header">
-        <nav id="primary-navigation" class="site-navigation">
-            <div class="container">
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
 
-                <div class="navbar-header">
-                   
-                    <a class="site-title"><span>Agency</span>Perfect</a>
+		</form>
+	</div>
+	
+ 	
+</div>	<div id="canvas-overlay"></div>
+	<div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+            <img src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
 
-                </div><!-- /.navbar-header -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
 
-                <div class="collapse navbar-collapse" id="agency-navbar-collapse">
-
-                    <ul class="nav navbar-nav navbar-right">
-
-                        <li class="active"><a href="index.html" data-toggle="dropdown">Home</a></li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
-
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                              <li><a href="portfolio.html">Portfolio</a></li>
-                              <li><a href="blog.html">Blog</a></li>
-                            </ul>
-
-                        </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="ui-elements.html">UI Elements</a></li>
-
-                    </ul>
-
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Special Dishes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="special-dishes.html">Beef Steak Sauce</a>
+                          <a class="dropdown-item" href="special-dishes.html">Salmon Zucchini</a>
+                        </div>
+                    </li>
                 </div>
-
-            </div>   
-        </nav><!-- /.site-navigation -->
-    </header><!-- /#mastheaed -->
-
-    <div id="hero" class="hero overlay">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Your story begins from here.</h1>
-                <p>Your clients on the internet. Learn how to receive them.</p>
-                <a href="#" class="btn btn-border">Learn more</a>
-            </div><!-- /.hero-text -->
-        </div><!-- /.hero-content -->
-    </div><!-- /.hero -->
-
-    <main id="main" class="site-main">
-
-        <section class="site-section section-features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5">
-                        <h2>Responsive web design</h2>
-                        <p>Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries</p>
-                    </div>
-                    <div class="col-sm-7 hidden-xs">
-                        <img src="assets/img/ipad-pro.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.section-features -->
-
-        <section class="site-section section-services gray-bg text-center">
-            <div class="container">
-                <h2 class="heading-separator">Our Services</h2>
-                <p class="subheading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                <div class="row">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/anchor.svg" alt="">
-                            <h3 class="service-title">Branding</h3>
-                            <p class="service-info"> Learn why your brand is a valuable component when it comes to your marketing communication and why you don't want to be without one.</p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/bycicle.svg" alt="">
-                            <h3 class="service-title">Design</h3>
-                            <p class="service-info">The strength of a design lies as much in the steps taken to create it as in the final result. </p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/paper-plane.svg" alt="">
-                            <h3 class="service-title">Development</h3>
-                            <p class="service-info">Development is a way to make people aware of the services and/or products you are offering.</p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/photo.svg" alt="">
-                            <h3 class="service-title">Photography</h3>
-                            <p class="service-info">Photographs are the legacy you leave for generations to come.</p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/microphone.svg" alt="">
-                            <h3 class="service-title">Support</h3>
-                            <p class="service-info">A support network can include a variety of forms of interaction with a range of people who can support you in different ways. </p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/rocket.svg" alt="">
-                            <h3 class="service-title">Marketing</h3>
-                            <p class="service-info">Marketing is of vital importance to any business. It is the key process of researching, promoting and selling products or services to your target.</p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/basket.svg" alt="">
-                            <h3 class="service-title">Ecommerce</h3>
-                            <p class="service-info">When customers are deciding on a purchase, they start by looking online.</p>
-                        </div><!-- /.service -->
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="service">
-                            <img src="assets/img/chemestry.svg" alt="">
-                            <h3 class="service-title">Coding</h3>
-                            <p class="service-info">We use the best coding practices</p>
-                        </div><!-- /.service -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.section-services -->
-
-        <section class="site-section section-map-feature text-center">
-
-            <div class="container">
-                <h2>Responsive Web Design</h2>
-                <p>Web design is responsive design. Responsive web design is web design, done right.</p>
-                <a href="#" class="btn btn-fill">Learn More</a>
-                <div class="row">
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-item">
-                            <p class="counter" data-to="377" data-speed="2000">0</p>
-                            <h3>Cofee Cups</h3>
-                        </div><!-- /.counter-item -->
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-item">
-                            <p class="counter" data-to="1204" data-speed="2000">0</p>       
-                            <h3>Projects completed</h3>
-                        </div> <!-- /.counter-item -->      
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-item">
-                            <p class="counter" data-to="459" data-speed="1000">0</p>
-                            <h3>Happy Clients</h3>
-                        </div><!-- /.counter-item -->
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-item">
-                            <p class="counter" data-to="675" data-speed="1000">0</p>
-                            <h3>Average Deal</h3>
-                        </div><!-- /.counter-item -->
-                    </div>
-                </div>
-            </div>
+            </ul>
             
-        </section><!-- /.section-map-feature -->
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
 
-        <section class="site-section section-portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="heading-separator">Latest Work</h2>
-                    <p class="subheading-text">This is some of our best work</p>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="reservation.html">Reservation</a>
+                    </li>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Portfolio item</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.section-portfolio -->
-
-        <section class="site-section section-newsletter text-center">
-            <div class="container">
-                <h2>Subscribe our newsletters</h2>
-                <form class="form-group newsletter-group">
-                    <input type="email" class="form-control" placeholder="Your e-mail" required>
-                    <button class="btn btn-green" type="button">Subscribe</button>
-                </form><!-- /.newsletter-group -->
-            </div>
-        </section><!-- /.section-newsletter -->
-
-    </main><!-- /#main -->
-
-    <footer id="colophon" class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-4 col-xs-6">
-                    <a class="site-title"><span>Agency</span>Perfect</a>
-                    <p>We're a digital agency focused on creative and results-driven solutions.</p>
-                    <p>We measure our success by the results we drive for our clients.</p>
-                </div>
-                <div class="col-lg-offset-4 col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-0 col-xs-6 ">
-                    <h3>Keep in touch</h3>
-                    <ul class="list-unstyled contact-links">
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@agencyperfect.com">info@agencyperfect.com</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000">+374 (00) 80 00 00 </a></li>
-                        <li><i class="fa fa-fax" aria-hidden="true"></i><a href="+37400900000">+374 (00) 90 00 00</a></li>
-                        <li><i class="fa fa-map-marker" aria-hidden="true"></i><p>20 Leo, Armenia</p></li>
-                    </ul>
-                </div>
-                <div class="clearfix visible-xs"></div>
-                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-                    <h3>Featured links</h3>
-                    <ul class="list-unstyled">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="portfolio.html">Porfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-8">
-                        <div class="social-links">
-                            <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                            <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
-                            <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
-                        </div><!-- /.social-links -->
+    </div>
+</nav>		<div class="hero">
+  <div class="container">
+	<div class="row d-flex align-items-center">
+		<div class="col-lg-6 hero-left">
+		    <h1 class="display-4 mb-5">We Love <br>Delicious Foods!</h1>
+		    <div class="mb-2">
+		    	<a class="btn btn-primary btn-shadow btn-lg" href="#" role="button">Explore Menu</a>
+			    <a class="btn btn-icon btn-lg" href="https://player.vimeo.com/video/33110953" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true">
+			    	<span class="lnr lnr-film-play"></span>
+			    	Play Video
+			    </a>
+		    </div>
+		   
+		    <ul class="hero-info list-unstyled d-flex text-center mb-0">
+		    	<li class="border-right">
+		    		<span class="lnr lnr-rocket"></span>
+		    		<h5>
+		    			Fast Delivery
+		    		</h5>
+		    	</li>
+		    	<li class="border-right">
+		    		<span class="lnr lnr-leaf"></span>
+		    		<h5>
+		    			Fresh Food
+		    		</h5>
+		    	</li>
+		    	<li class="">
+		    		<span class="lnr lnr-bubble"></span>
+		    		<h5>
+		    			24/7 Support
+		    		</h5>
+		    	</li>
+		    </ul>
+
+	    </div>
+	    <div class="col-lg-6 hero-right">
+	    	<div class="owl-carousel owl-theme hero-carousel">
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-1.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-2.jpg" alt="">
+			    </div>
+			    <div class="item">
+			    	<img class="img-fluid" src="img/hero-3.jpg" alt="">
+			    </div>
+			</div>
+	    </div>
+	</div>
+  </div>
+</div>		<!-- Welcome Section -->
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/hero-2.jpg);">
+                    
+                </div>
+                <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                    <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                            About
+                        </span>
+                        <h2>
+                            Welcome to Resto
+                        </h2>
                     </div>
-                    <div class="col-xs-4">
-                        <div class="text-right">
-                            <p>&copy; AgencyPerfect</p>
-                            <p>All Rights Reserved</p>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <h3 class="mt-5">Special Recipe</h3>
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-1.jpg" />
+                                    <h6>Australian Organic Beef</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-1.jpg" />
+                                    <h6>Australian Organic Beef</h6>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="#" class="thumb-menu">
+                                    <img class="img-fluid img-cover" src="img/hero-1.jpg"/>
+                                    <h6>Australian Organic Beef</h6>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- /.copyright -->
-    </footer><!-- /#footer -->
+        </div>
+    </div>
+</section>
+<!-- End of Welcome Section -->		<!-- Special Dishes Section -->
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Specialties
+                </span>
+                <h2>
+                    Special Dishes
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Beef</span><br> Steak Sauce</h3>
+                        <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea vero alias perferendis quas animi doloribus voluptates. Atque explicabo ea nesciunt provident libero qui eum, corporis esse quos excepturi soluta?</p>
+                        <h3 class="special-dishes-price">$15.00</h3>
+                        <a href="#" class="btn-primary mt-3">book a table</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/steak.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/salmon-zucchini.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Salmon</span><br> Zucchini</h3>
+                        <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, accusamus culpa quam amet ipsam odit ea doloremque accusantium quo, itaque possimus eius. In a quis quibusdam omnis atque vero dolores!</p>
+                        <h3 class="special-dishes-price">$12.00</h3>
+                        <a href="#" class="btn-primary mt-3">book a table <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Special Dishes Section -->		<!-- Menu Section -->
+<section id="gtco-menu" class="section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Specialties
+                        </span>
+                        <h2>
+                            Our Menu
+                        </h2>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Breakfast</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Breakfast</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  
+                <div class="col-lg-4 menu-wrap">
+                    <div class="heading-menu">
+                        <h3 class="text-center mb-5">Breakfast</h3>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                    <div class="menus d-flex align-items-center">
+                        <div class="menu-img rounded-circle">
+                            <img class="img-fluid" src="img/breakfast-1.jpg" alt="">
+                        </div>
+                        <div class="text-wrap">
+                            <div class="row align-items-start">
+                                <div class="col-8">
+                                    <h4>Egg Sandwich</h4>
+                                </div>
+                                <div class="col-4">
+                                    <h4 class="text-muted menu-price">$30</h4>
+                                </div>
+                            </div>
+                            <p>Meat Ball, Mie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of menu Section -->		<!-- Testimonial Section-->
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/testi-bg.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Testimony
+                </span>
+                <h2>
+                    Happy Customer
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial -->
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p class="testi-author">John Doe</p>
+                        <p class="testi-desc">CEO of <span>GetTemplates</span></p>
+                    </div>
+                    <div class="testi-item">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <p class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non doloribus ut, alias doloremque perspiciatis.</p>
+                        <p class="testi-author">Mary Jane</p>
+                        <p class="testi-desc">CTO of <span>Unidentity Inc</span></p>
+                    </div>
+                </div>
+                <!-- End of Testimonial -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Testimonial Section-->		<!-- Team Section -->
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Specialties
+                </span>
+                <h2>
+                    Our Team
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-1.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Aaron Patel</h4>
+                            <p class="mb-1">CEO</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-2.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Daniel Tebas</h4>
+                            <p class="mb-1">Chef</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/chef-3.jpg" alt="">
+                        <div class="team-desc">
+                            <h4 class="mb-0">Jon Snow</h4>
+                            <p class="mb-1">Chef</p>
+                            <ul class="list-inline mb-0 team-social-links">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Team Section -->		<!-- Reservation Section -->
+<section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(img/reservation-bg.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section-content bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <span class="subheading">
+                            Reservation
+                        </span>
+                        <h2>
+                            Book Now
+                        </h2>
+                    </div>
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Date" />
+                                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-calendar-full"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 form-group">
+                                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Time" />
+                                    <div class="input-group-append" data-target="#datetimepicker3" data-toggle="datetimepicker">
+                                        <div class="input-group-text">
+                                            <span class="lnr lnr-clock"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <select class="form-control" id="selectPerson">
+                                    <option></option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                 
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- End of Reservation Section -->		<footer class="mastfoot pb-5 bg-white section-padding pb-0">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4">
+         		<div class="footer-widget pr-lg-5 pr-0">
+         			<img src="img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+	         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quisquam id sit omnis explicabo voluptate aut placeat, soluta, nisi ea magni facere, itaque incidunt modi? Magni, et voluptatum dolorem.</p>
+	         		<nav class="nav nav-mastfoot justify-content-start">
+		                <a class="nav-link" href="#">
+		                	<i class="fab fa-facebook-f"></i>
+		                </a>
+		                <a class="nav-link" href="#">
+		                	<i class="fab fa-twitter"></i>
+		                </a>
+		                <a class="nav-link" href="#">
+		                	<i class="fab fa-instagram"></i>
+		                </a>
+		            </nav>
+         		</div>
+         		
+         	</div>
+         	<div class="col-lg-4">
+         		<div class="footer-widget px-lg-5 px-0">
+         			<h4>Open Hours</h4>
+	         		<ul class="list-unstyled open-hours">
+		                <li class="d-flex justify-content-between"><span>Monday</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Thursday</span><span>9:00 - 24:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Friday</span><span>9:00 - 02:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Saturday</span><span>9:00 - 02:00</span></li>
+		                <li class="d-flex justify-content-between"><span>Sunday</span><span> Closed</span></li>
+		              </ul>
+         		</div>
+         		
+         	</div>
+
+         	<div class="col-lg-4">
+         		<div class="footer-widget pl-lg-5 pl-0">
+         			<h4>Newsletter</h4>
+	         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	         		<form id="newsletter">
+						<div class="form-group">
+							<input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Enter email">
+						</div>
+						<button type="submit" class="btn btn-primary w-100">Submit</button>
+					</form>
+         		</div>
+         		
+         	</div>
+         	<div class="col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">Copyright 2019. All Right Reserved. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a></p>
+         	</div>
+            
+        </div>
+    </div>
+</footer>	</div>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
 </body>
 </html>

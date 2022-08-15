@@ -21,7 +21,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 });*/
 route::get('/','TemplateController@index');
 //Route::view('/','insert');
-route::post('insertData',[ProductController::class,'insert']);
+/*route::post('insertData',[ProductController::class,'insert']);
 route::get('/',[ProductController::class,'readdata']);
 //route::view('update','update');
 route::get('updatedelete',[ProductController::class,'updateordelete']);
@@ -31,6 +31,6 @@ route::get('/registration',[CustomAuthController::class,'registration']);
 route::post('/register-user',[CustomAuthController::class,'registerUser'])->name('register-user');
 route::post('/login-user',[CustomAuthController::class,'loginUser'])->name('login-user');
 route::get('/dashboard',[CustomAuthController::class,'dashboard']);
-route::get('/logout',[CustomAuthController::class,'logout']);
+route::get('/logout',[CustomAuthController::class,'logout']);*/
 
 ?> 

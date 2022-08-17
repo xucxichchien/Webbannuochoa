@@ -19,7 +19,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700" rel="stylesheet">
+    <link href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,700') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css') }}">
 
     <!-- Favicon
